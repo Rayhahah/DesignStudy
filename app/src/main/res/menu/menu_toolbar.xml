@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context=".ToolbarActivity">
+
+    <item
+        android:id="@+id/action_tips"
+        android:orderInCategory="80"
+        android:title="个人中心"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_svg_logo_color_accent_24"
+        android:orderInCategory="80"
+        android:title="分享"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_svg_logo_color_accent_24"
+        android:orderInCategory="90"
+        android:title="设置"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_svg_logo_color_accent_24"
+        android:orderInCategory="100"
+        android:title="更多"
+        app:showAsAction="never"/>
+</menu>
